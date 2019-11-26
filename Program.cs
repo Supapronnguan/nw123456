@@ -17,7 +17,7 @@ namespace ImageAnalyze
         private const string localImagePath = @"starwar7.jpg";
 
         private const string remoteImageUrl =
-            "https://19mvmv3yn2qc2bdb912o1t2n-wpengine.netdna-ssl.com/science/files/2013/12/tnc_17745326_preview-1260x708.jpg";
+            "";
 
         // Specify the features to return
         private static readonly List<VisualFeatureTypes> features =
@@ -91,7 +91,7 @@ namespace ImageAnalyze
             }
             else
             {
-                Console.WriteLine("No description generated.");
+                Console.WriteLine("No description generated."); 
             }
         }
     }
